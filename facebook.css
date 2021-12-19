@@ -123,6 +123,7 @@ body {
 .face {
     width: 40px;
     border-radius: 50%;
+    justify-content: center;
     align-self: center;
     padding: 5px;
 }
@@ -167,6 +168,12 @@ input{
     justify-content: center;
     align-self: center;
 }
+/*  to make your mouse hover around a div or section you use te css pseudo class hover.
+you can use the "not()" to exclude a part. e.g icon: not(icon3) or the pseudo class "lastchild" */
+
+.icon1:hover{
+    background-color: rgb(235, 235, 235);
+}
 .icon2 {
     width: 350px;
     padding: 4px 20px;
@@ -175,12 +182,19 @@ input{
     justify-content: center;
     align-self: center;
 }
+.icon2:hover {
+    background-color: rgb(235, 235, 235);
+}
 .icon3 { 
     width: 350px;
+    padding: 4px 20px;
     margin: 5px;
     display: flex;
     justify-content: center;
     align-self: center;
+}
+.icon3:hover {
+    background-color: rgb(235, 235, 235);
 }
 h3 {
     margin: 0;
